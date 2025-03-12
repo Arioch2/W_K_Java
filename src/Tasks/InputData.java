@@ -24,4 +24,11 @@ public class InputData {
     protected boolean InputBoolean() {
         return input.nextBoolean();
     }
+
+
+    protected boolean InputBool() {
+        boolean value = input.nextBoolean();
+        input.nextLine();
+        return value;
+    }
 }

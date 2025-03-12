@@ -1,11 +1,9 @@
 package Tasks;
 
-import java.util.Scanner;
-
 public class Run {
 
     //obiekt klasy tasks
-    TasksLab01 tasksLab01 = new TasksLab01();
+    TasksLab02 tasksLab02 = new TasksLab02();
     // obiekt klasy Inputdata
     InputData inputData = new InputData();
 
@@ -25,25 +23,19 @@ public class Run {
         System.out.println("8. Exit");
         System.out.println("Select a task: ");
         int choose = inputData.InputInt();
-
-
         switch (choose){
-            case 1: tasksLab01.Task001();
+            case 1: tasksLab02.Task001();
             break;
-            case 2: tasksLab01.Task002();
+            case 2: tasksLab02.Task002();
             break;
-            case 3: tasksLab01.Task003();
+            case 3: tasksLab02.Task003();
             break;
-            case 4: tasksLab01.Task004();
+            case 4: tasksLab02.Task004();
             break;
-            case 5: tasksLab01.Task005();
+            case 5: tasksLab02.Task005();
             break;
-            case 6: tasksLab01.Task006();
+            case 6: tasksLab02.Task006();
             break;
-            case 7: tasksLab01.Task007();
-            break;
-
-
 
         }
 
